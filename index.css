@@ -119,7 +119,28 @@ body {
     min-width: 390px;
 }
 
-@media screen {}
+@media (max-width: 576px){
+  .first-col{
+    text-align: center;
+  }
+  .h-1{
+    font-size: 40px;
+  }
+  .food{
+    font-size: 35px;
+  }
+  .para1{
+    font-size: 15px;
+    width: 80%;
+ margin: auto;
+  }
+  .order{
+    font-size: 16px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+}
 
 .card {
     border-radius: 20px;
@@ -219,6 +240,13 @@ body {
     width: 85%;
     font-family: "Nunito", sans-serif;
 }
+@media (max-width: 576px){
+  .sec3-h1{
+    font-size: 24px;
+    text-align: center;
+  }
+
+}
 
 .sec3-card {
     width: 90%;
@@ -238,6 +266,16 @@ body {
     font-family: "Nunito", sans-serif;
     text-align: center;
     font-weight: bold;
+}
+@media (max-width: 576px){
+ 
+  .sec4-h1{
+    font-size: 27px;
+    text-align: center;
+  }
+  .sec4-para{
+    font-size: 15px;
+  }
 }
 
 .sec4-div {
@@ -350,6 +388,24 @@ body {
     color: #F03328;
 
 }
+@media (max-width: 576px){
+.t1{
+   font-size: 30px;
+   text-align: center;
+ 
+}
+
+.t2{
+font-size: 30px;
+text-align: center;
+}
+.t3{
+  font-size: 15px;
+  margin: auto;
+  width: 100%;
+}
+
+}
 
 .t3 {
     color: #3D3D3D;
@@ -359,6 +415,18 @@ body {
     margin-top: 10px;
     font-weight: normal;
 }
+.cont-cen1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* @media (min-width: 576px){
+  .cont-cen1{
+    display: none;
+    justify-content: none;
+    align-items: none;
+  }
+} */
 
 .client {
     border-radius: 50%;
